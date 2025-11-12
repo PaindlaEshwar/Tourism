@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tourism</title>
+    <link rel="stylesheet" href="all.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="sectionindex">
+      <div class="bg-image ">
+        <div class="card  ">
+            <h1 class="head">Tourism</h1>
+            <p class="para">Plan your trip wherever you want to go</p>
+            <div class="buu1">
+            <button class="butt" onclick="display('sectionfav')"> Get Started </button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="sectionfav">
+       <div class="favplaces-bg">
+          <h1 class="fav-heading">
+            Favourite Places
+        </h1>
+      <div class="fav-card" onclick="display('sectionview')">
+         <div>
+          <h1 class="fav-card-heading">
+             Taj Mahal
+          </h1>
+       <p class="fav-card-para">
+        The Taj Mahal is a stunning white marble mausoleum located in Agra,
+         Uttar Pradesh India, on the southern bank of the Yamuna River. 
+         it's a symbol of eternal love and a masterpiece of Mughal architecture blending Indian, Persian, and Islamic styles
+        </p>
+         </div>
+           <img src="./im/tajmahal.jpg" class="fav-img">
+        </div>
+  <div class="fav-card " >
+    <div>
+    <h1 class="fav-card-heading">
+        Golden Temple
+    </h1>
+    <p class="fav-card-para">
+        The Golden Temple, also known as Sri Harmandir Sahib, is a breathtaking gurudwara (Sikh temple) in Amritsar, Punjab, India.
+         It's a symbol of equality, peace, and spirituality, attracting millions of visitors worldwide.
+    </p>
+    </div>
+    <img src="./im/golden.jpg" class="fav-img">
+   </div>
+  <div class="fav-card ">
+    <div>
+    <h1 class="fav-card-heading">
+        Ramappa Temple
+    </h1>
+    <p class="fav-card-para">
+      Ramappa Temple, also known as Rudreshwara Temple, is a stunning example of Kakatiya architecture located in Palampet village, Telangana, India. 
+      This 13th-century temple is dedicated to Lord Shiva and is renowned for its intricate carvings, innovative construction techniques, and historical significance.
+    </p>
+    </div>
+    <img src="./im/ramappa.JPG" class="fav-img">
+  </div>
+  <div class="fav-card ">
+    <div>
+    <h1 class="fav-card-heading">
+        Varanasi Temple
+    </h1>
+    <p class="fav-card-para">
+      Varanasi, a city in Uttar Pradesh, India, is renowned for its rich spiritual heritage and is home to numerous ancient and revered temples.
+       Here's an overview of some prominent temples.Varanasi Temple is most famo Hindu temples dedicated to Lord Shiva.
+    </p>
+    </div>
+    <img src="./im/varanasi-aarti.webp" class="fav-img">
+  </div>
+   <div class="fav-card ">
+    <div>
+    <h1 class="fav-card-heading">
+        Mysore Palace
+    </h1>
+    <p class="fav-card-para">
+     Mysore Palace, also known as Amba Vilas Palace, is a stunning example of Indo-Saracenic architecture located in Mysore, Karnataka, India. 
+     This historic palace was built between 1897 and 1912 for the Wadiyar dynasty, who ruled Mysore for over 600 years.
+    </p>
+    </div>
+    <img src="./im/r-Mysore-Palace..avif" class="fav-img">
+   </div>
+   <button class="btnnn" onclick="display('sectionindex')"> Back</button>
+   </div>    
+    </div>
+    <div id="sectionview">
+      <div class="detailview-bg">
+        <h1 class="detailview-bg-heading">
+            Detailed View
+        </h1>
+        <div class="detailview-card">
+            <img src="./im/tajmahal.jpg"  class="img">
+            <div class="card-texting">
+                <h1 class="card-heading">Taj Mahal</h1>
+                <p class="card-para">
+                    The Taj Mahal was designated as a UNESCO World Heritage Site in 1983 for being "the jewel of Islamic
+                    art in India and one of the universally admired masterpieces of the world's heritage".
+                    It is regarded as one of the best examples of Mughal architecture and a symbol of Indian history.
+                    The Taj Mahal is a major tourist attraction and attracts more than five million visitors a year. In
+                    2007, it was declared a winner of the New 7 Wonders of the World initiative.
+                    The Taj Mahal and its setting, surrounding grounds, and structures are a Monument of National
+                    Importance, administered by the Archaeological Survey of India.
+                </p>
+                <button class="butn11" onclick="display('sectionfav')">Back</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+    ></script>
+  </body>
+</html>
